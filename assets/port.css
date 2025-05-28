@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cascadia Mono", sans-serif;
+}
+.home
+{
+ 
+ width: 100vw;
+ height: 100vh;
+ background-image: url(./css/images/Sam+Wilson_New+Zealand.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.info a
+{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.info
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    height:40px;
+
+}
+.narr
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.personal h1{
+    color: whitesmoke;
+    display: flex;
+    justify-content:center;
+    font-size: 100px;
+}
+.personal p
+{
+    font-size: 60px;
+    color : orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.icon
+{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  
+}
+.icon a
+{
+    color: white;
+}
+.box
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+.menu
+{
+    display: none;
+}
+@media(max-width:1200px)
+{
+ .menu
+ {
+    display:none;
+ }
+ .info{
+    font-size: 30px;
+ }
+}
+@media(max-width:600px)
+{
+.personal h1
+{
+    font-size:40px;
+}
+.personal p
+{
+ font-size:30px;
+}
+.personal
+{
+    align-items: center;
+}
+.icon
+{
+    font-size: 30px;
+}
+.menu{
+    display: block;
+    color: white;
+
+}
+.info{
+    display: none;
+}
+}
+ 

@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cascadia Mono", sans-serif;
+}
+.info a
+{
+    color:black;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.info
+{
+    display: flex;
+    gap: 60px;
+    padding-left: 500px;
+}
+.narr
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:blanchedalmond;
+}
+.contact
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contact h2
+{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.contact h1
+{
+    font-size: 70px;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.content input
+{
+    padding: 20px 100px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    
+}
+button
+{
+    margin-left: 700px;    
+    margin-top: 50px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: gray;
+    transition: transform 0.02 ease;
+}
+button:hover
+{
+    transform: scale(1.2);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.detail
+{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    padding-bottom: 153px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+hr
+{
+    color: white;
+}
