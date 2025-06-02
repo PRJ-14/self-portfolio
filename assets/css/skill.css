@@ -14,6 +14,7 @@
     align-items: center;
     height: 10%;
     background-color:black;
+    gap: 60px;
 }
 .about-nav-bar img
 {
